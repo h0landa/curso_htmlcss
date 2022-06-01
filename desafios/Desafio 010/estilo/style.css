@@ -1,0 +1,28 @@
+body {
+    background-color: #a2f57c;
+}
+main {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    padding: 8px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.479);
+}
+img {
+    width: 700px;
+}
+#irina {
+    width: 700px;
+    position: static;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+footer{
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+#video{
+    text-align: center;
+}
