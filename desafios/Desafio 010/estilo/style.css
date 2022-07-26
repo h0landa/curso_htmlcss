@@ -49,7 +49,12 @@ p {
 #video{
     text-align: center;
     background-color: #1A5C38;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#video > iframe{
+    width: 90%;
 }
 div{
     margin: 0 auto;
@@ -111,26 +116,25 @@ p{
 }
 .linkss:hover{
     color: green;
-}
-#l1{
-    text-align: left;
-    display: inline-block;
-    margin-right: 20vw;
-    margin-left: 3vw;
     text-decoration: underline;
 }
-#l2{
-    text-align: left;
-    display: inline-block;
-    text-decoration: underline;
+.externo::after{
+    content: '\00A0\1F517';
 }
 #listas{
     background-color:rgb(132, 225, 173);
     margin-top: 1vw;
     border-radius: 8px;
-    text-align: left;
     padding-bottom: 2px;
     font-family: 'Poppins';
+    list-style-position: inside;
+    text-align: left;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.273);
+}
+#listas > ul{
+    columns: 2;
+    margin-left: 10px;
+    list-style-type: '\2714\00A0\00A0';
 }
 #titulo_listas{
     height: 30px;
@@ -148,8 +152,9 @@ p{
     padding-bottom: 5px;
     text-shadow: 2px black;
 }
-li:hover{
+aside > ul > li:hover{
     color: rgb(52, 140, 255);
+    text-decoration: underline;
 }
 #nodroid{
     font-family: 'Roboto Condensed';
